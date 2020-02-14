@@ -9,4 +9,65 @@ Enter a calculation directly into the Python console, and it will output the ans
 6
 
 The spaces around the plus and minus signs here are optional (the code would work without them), but they make it easier to read.
+
 '''
+
+'''
+What does this code output?
+>>> 1 + 2 + 3
+6
+
+Python also carries out multiplication and division, using an asterisk to indicate multiplication and a forward slash to indicate 
+division.
+
+Use parentheses to determine which operations are performed first.
+>>> 2 * (3 + 4)
+14
+>>> 10 / 2
+5.0
+
+Using a single slash to divide numbers produces a decimal (or float, as it is called in programming). We'll have more about floats 
+in a later lesson.
+
+Which option is output by this code?
+>>> (4 + 8) / 2
+
+6.0
+8
+6
+
+Simple Operations
+
+The minus sign indicates a negative number.
+Operations are performed on negative numbers, just as they are on positive ones.
+>>> -7
+-7
+>>> (-7 + 2) * (-4)
+20
+
+The plus signs can also be put in front of numbers, but this has no effect, and is mostly used to emphasize that a number is positive 
+to increase readability of code.
+
+Fill in the blank to make this code correct.
+
+>>> (_5 - 1) * 3
+-18
+
+Dividing by zero in Python produces an error, as no answer can be calculated.
+>>> 11 / 0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+
+In Python, the last line of an error message indicates the error's type.
+Read error messages carefully, as they often tell you how to fix a program!
+
+Drag and drop the answer that will cause a ZeroDivisionError.
+
+>>> (17 + 94) / (-5 +_)
+0 -5 5
+
+'''
+
+
+
