@@ -1,0 +1,12 @@
+#Simple Operations
+
+'''
+Python has the capability of carrying out calculations.
+Enter a calculation directly into the Python console, and it will output the answer.
+>>> 2 + 2
+4
+>>> 5 + 4 - 3
+6
+
+The spaces around the plus and minus signs here are optional (the code would work without them), but they make it easier to read.
+'''
