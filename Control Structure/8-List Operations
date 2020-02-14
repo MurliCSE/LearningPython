@@ -1,0 +1,97 @@
+#List Operations
+
+'''
+The item at a certain index in a list can be reassigned.
+For example:
+nums = [7, 7, 7, 7, 7]
+nums[2] = 5
+print(nums)
+Try It Yourself
+
+Result:
+>>>
+[7, 7, 5, 7, 7]
+>>>
+
+Q. What is the result of this code?
+nums = [1, 2, 3, 4, 5]
+nums[3] = nums[1]
+print(nums[3])
+Ans. 2
+
+Lists can be added and multiplied in the same way as strings.
+For example:
+nums = [1, 2, 3]
+print(nums + [4, 5, 6])
+print(nums * 3)
+Try It Yourself
+
+Result:
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+>>>
+
+Lists and strings are similar in many ways - strings can be thought of as lists of characters that can't be changed.
+
+Q. Fill in the blanks to create a list, reassign its 2nd element and print the whole list.
+
+nums = [33, 42, 56_
+nums[_] = 22
+print(_)
+Ans. ],1,nums
+
+To check if an item is in a list, the in operator can be used. It returns True if the item occurs one or more times in the list, and 
+False if it doesn't.
+words = ["spam", "egg", "spam", "sausage"]
+print("spam" in words)
+print("egg" in words)
+print("tomato" in words)
+Try It Yourself
+
+Result:
+>>>
+True
+True
+False
+>>>
+
+The in operator is also used to determine whether or not a string is a substring of another string.
+
+Q. What is the result of this code?
+nums = [10, 9, 8, 7, 6, 5]
+nums[0] = nums[1] - 5
+if 4 in nums:
+  print(nums[3])
+else:
+  print(nums[4])
+Ans. 7
+
+To check if an item is not in a list, you can use the not operator in one of the following ways:
+nums = [1, 2, 3]
+print(not 4 in nums)
+print(4 not in nums)
+print(not 3 in nums)
+print(3 not in nums)
+Try It Yourself
+
+Result:
+>>>
+True
+True
+False
+False
+>>>
+
+Q. Fill in the blanks to print "Yes" if the list contains 'z':
+
+letters = ['a', 'b', 'z']
+ __ "z" __ letters:
+  print("Yes")
+Ans. if,in
+
+
+
+'''
+
+
