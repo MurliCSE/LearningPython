@@ -1,0 +1,39 @@
+#Floats
+
+'''
+Floats are used in Python to represent numbers that aren't integers.
+Some examples of numbers that are represented as floats are 0.5 and -7.8237591.
+They can be created directly by entering a number with a decimal point, or by using operations such as division on integers. 
+Extra zeros at the number's end are ignored.
+>>> 3/4
+0.75
+>>> 9.8765000
+9.8765
+
+Computers can't store floats perfectly accurately, in the same way that we can't write down the complete decimal expansion 
+of 1/3 (0.3333333333333333...). Keep this in mind, because it often leads to infuriating bugs!
+
+Which of these will not be stored as a float?
+
+2/4
+7
+7.0
+
+As you saw previously, dividing any two integers produces a float.
+A float is also produced by running an operation on two floats, or on a float and an integer.
+>>> 8 / 2
+4.0
+>>> 6 * 7.0
+42.0
+>>> 4 + 1.65
+5.65
+
+A float can be added to an integer, because Python silently converts the integer to a float. However, this implicit conversion is the 
+exception rather the rule in Python - usually you have to convert values manually if you want to operate on them.
+
+Fill in the blank with the output of this code.
+>>> 1 + 2 + 3 + 4.0 + 5
+
+15.0
+
+'''
