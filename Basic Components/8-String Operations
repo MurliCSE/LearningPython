@@ -1,0 +1,70 @@
+#String Operations
+
+'''
+#Concatenation
+
+As with integers and floats, strings in Python can be added, using a process called concatenation, which can be done on any two strings.
+When concatenating strings, it doesn't matter whether they've been created with single or double quotes.
+>>> "Spam" + 'eggs'
+'Spameggs'
+
+>>> print("First string" + ", " + "second string")
+First string, second string
+Try It Yourself
+
+You can’t concatenate strings with numbers (integers). Find out why in the next lesson
+
+Q. Fill in the missing string.
+>>> "Hello " + '______
+'Hello world'
+
+Concatenation
+
+Even if your strings contain numbers, they are still added as strings rather than integers. Adding a string to a number produces an 
+error, as even though they might look similar, they are two different entities.
+>>> "2" + "2"
+'22'
+>>> 1 + '2' + 3 + '4'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Try It Yourself
+
+In future lessons, only the final line of error messages will be displayed, as it is the only one that gives details about the type of 
+error that has occurred.
+
+Q. Which line of code produces an error?
+
+3 + 4
+"one" + "2"
+'5' + 6
+"7" + 'eight'
+
+String Operations
+
+Strings can also be multiplied by integers. This produces a repeated version of the original string. The order of the string and the integer doesn't matter, but the string usually comes first.
+
+Strings can't be multiplied by other strings. Strings also can't be multiplied by floats, even if the floats are whole numbers.
+>>> print("spam" * 3)
+spamspamspam
+
+>>> 4 * '2'
+'2222'
+
+>>> '17' * '87'
+TypeError: can't multiply sequence by non-int of type 'str'
+
+>>> 'pythonisfun' * 7.0
+TypeError: can't multiply sequence by non-int of type 'float'
+Try It Yourself
+
+Try to multiply a string by 0 (zero) and see what happens.
+
+Q. What is the output of this code?
+>>> print(3 * '7')
+
+'___'
+
+'''
+
+
