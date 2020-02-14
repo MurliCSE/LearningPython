@@ -1,0 +1,24 @@
+#Loops
+
+'''
+Sometimes, you need to perform code on each item in a list. This is called iteration, and it can be accomplished with a while loop and a counter variable.
+For example:
+words = ["hello", "world", "spam", "eggs"]
+counter = 0
+max_index = len(words) - 1
+
+while counter <= max_index:
+   word = words[counter]
+   print(word + "!")
+   counter = counter + 1 
+Try It Yourself
+
+Result:
+>>>
+hello!
+world!
+spam!
+eggs!
+>>>
+
+The example above iterates through all items in the list, accesses them using their indices, and prints them with exclamation marks.
