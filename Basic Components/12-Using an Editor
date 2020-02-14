@@ -1,0 +1,35 @@
+#Using an Editor
+
+'''
+So far, we've only used Python with the console, entering and running one line of code at a time.
+Actual programs are created differently; many lines of code are written in a file, and then executed with the Python interpreter.
+
+In IDLE, this can be done by creating a new file, entering some code, saving the file, and running it. This can be done either with 
+the menus or with the keyboard shortcuts Ctrl-N, Ctrl-S and F5.
+
+Each line of code in the file is interpreted as though you entered it one line at a time at the console.
+x = 7
+x = x + 2
+print(x)
+Try It Yourself
+
+Result:
+9
+
+Python source files have an extension of .py
+You can run, save, and share your Python codes on our Code Playground, without installing any additional software.
+Reference this lesson if you need to install the software on your computer.
+
+Q. Which lines are executed when a Python file is run?
+
+The first line only
+The first 100 lines
+Every line
+
+'''
+
+
+
+
+
+
