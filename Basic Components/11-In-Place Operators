@@ -1,0 +1,49 @@
+#In-Place Operators
+
+'''
+In-place operators allow you to write code like 'x = x + 3' more concisely, as 'x += 3'.
+The same thing is possible with other operators such as -, *, / and % as well.
+>>> x = 2
+>>> print(x)
+2
+>>> x += 3
+>>> print(x)
+5
+Try It Yourself
+
+Tap Try It Yourself to play around with the code!
+
+Q. What is the output of this code?
+>>> x = 4
+>>> x *= 3
+>>> print(x)
+
+Ans. 12
+
+
+These operators can be used on types other than numbers, as well, such as strings.
+>>> x = "spam"
+>>> print(x)
+spam
+
+>>> x += "eggs"
+>>> print(x)
+spameggs
+Try It Yourself
+
+Many other languages have special operators such as '++' as a shortcut for 'x += 1'. Python does not have these.
+
+Q. What is the result of this code?
+>>> x = "a"
+>>> x *= 3
+print(x)
+
+Ans. aaa
+
+
+
+'''
+
+
+
+
