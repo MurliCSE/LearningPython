@@ -22,3 +22,68 @@ eggs!
 >>>
 
 The example above iterates through all items in the list, accesses them using their indices, and prints them with exclamation marks.
+
+Q. Which construct can be used to iterate through a list?
+
+Variable assignment
+if statements
+Loops
+Ans. Loops
+
+#for Loop
+
+Iterating through a list using a while loop requires quite a lot of code, so Python provides the for loop as a shortcut that 
+accomplishes the same thing.
+The same code from the previous example can be written with a for loop, as follows:
+words = ["hello", "world", "spam", "eggs"]
+for word in words:
+  print(word + "!")
+Try It Yourself
+
+Result:
+>>>
+hello!
+world!
+spam!
+eggs!
+>>>
+
+The for loop in Python is like the foreach loop in other languages.
+
+Q. Fill in the blanks to create a valid for loop.
+
+letters = ['a', 'b', 'c']
+ ___ l __ letters_
+  print(l)
+Ans. for,in,:
+
+for Loops
+
+The for loop is commonly used to repeat some code a certain number of times. This is done by combining for loops with range objects.
+for i in range(5):
+  print("hello!")
+Try It Yourself
+
+Result:
+>>>
+hello!
+hello!
+hello!
+hello!
+hello!
+>>>
+
+You don't need to call list on the range object when it is used in a for loop, because it isn't being indexed, so a list isn't required.
+
+Q. Fill in the blanks to create a for loop that prints only the even values in the range:
+___ i in range(0, 20, __):
+  print(_)
+  
+Ans. for,2,i
+
+
+'''
+
+
+
+
